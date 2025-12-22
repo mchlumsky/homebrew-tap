@@ -3,7 +3,7 @@ cask "mracek" do
   name "mracek"
   desc "Manage your OpenStack configuration files via CLI."
   homepage "https://github.com/mchlumsky/mracek"
-  version "0.6.149"
+  version "0.6.150"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "mracek" do
   on_macos do
     on_intel do
       url "https://github.com/mchlumsky/mracek/releases/download/v#{version}/mracek_Darwin_x86_64.tar.gz"
-      sha256 "4d87b3ecae37c38adb570e1b85833ba253af0cc83fbf766d357201188eb025f2"
+      sha256 "2ecd0a75e71999c60b28a3fa305b404d20da0314c18f60501cc908fca8d61ba1"
     end
     on_arm do
       url "https://github.com/mchlumsky/mracek/releases/download/v#{version}/mracek_Darwin_arm64.tar.gz"
-      sha256 "3c9429d4943c80df72c009df6e27badb6424c5ddd70430a996d69f1ca4fc4808"
+      sha256 "26b881f79a3d3ffcc35a2273f7c081c157a2e553e4210de88a233407a2ce015c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mchlumsky/mracek/releases/download/v#{version}/mracek_Linux_x86_64.tar.gz"
-      sha256 "fbf96ab111692b601f0a76274b38f38ca417fb30426607934aad4c256c7beea8"
+      sha256 "b9d9a38e4639dbc72a935c25ffdfdb9fcb5da8dffb7d34de72cc1d6dd938e3b6"
     end
     on_arm do
       url "https://github.com/mchlumsky/mracek/releases/download/v#{version}/mracek_Linux_arm64.tar.gz"
-      sha256 "aa3394a8c37bb7902dcf97a7ad351573bb6a6dcb18a2d3fdccd20e96927d6d84"
+      sha256 "6ad16cfe56308542d830ed784ad9c8c0d1a364ff77c74075df11affef3d2e2db"
     end
   end
 
