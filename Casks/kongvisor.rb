@@ -3,7 +3,7 @@ cask "kongvisor" do
   name "kongvisor"
   desc "TUI for Kong Gateway Admin API"
   homepage "https://github.com/mchlumsky/kongvisor"
-  version "0.2.12"
+  version "0.2.13"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kongvisor" do
   on_macos do
     on_intel do
       url "https://github.com/mchlumsky/kongvisor/releases/download/v#{version}/kongvisor_Darwin_x86_64.tar.gz"
-      sha256 "64b890d8a433ba4f05dbea11a7e655cef140a3db7f59d93ec107abeb98ca3f7b"
+      sha256 "011fa3020ade809b3adcbaa1b490b2e97c2ad69ef27dd2a6942db8866f77f1a4"
     end
     on_arm do
       url "https://github.com/mchlumsky/kongvisor/releases/download/v#{version}/kongvisor_Darwin_arm64.tar.gz"
-      sha256 "721eb7885f66e60f7bef642fd64fc6d593f8fdc32ac604b611729734782b16e7"
+      sha256 "0c8865ca95f326e919352f659f5815802f657c331ef6fe0e67a75f346b62c3d0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mchlumsky/kongvisor/releases/download/v#{version}/kongvisor_Linux_x86_64.tar.gz"
-      sha256 "c31a878af1473048f11d0690ba3694627cd33388e49a8208a852fa4d4fff53ae"
+      sha256 "fa8916cd0a41307f362f6215b33a2f89d0281ea4d16e9653ab137247effda209"
     end
     on_arm do
       url "https://github.com/mchlumsky/kongvisor/releases/download/v#{version}/kongvisor_Linux_arm64.tar.gz"
-      sha256 "6c2e650ba2be9862a522bbc92697164b57d1fb040dffc3df4610c280d7242cdc"
+      sha256 "41fbcb42638558023a04a6a4791590673edb022d8a96c92f8c60e51abf934c32"
     end
   end
 
